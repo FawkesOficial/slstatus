@@ -64,12 +64,12 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, "  %s |",         "pamixer --get-volume-human" },
-	{ cpu_perc,    "  cpu: %2s% |",   NULL },
-	{ ram_perc,    "  ram: %2s% |",   NULL },
-//	{ netspeed_tx, "  %sB/s",        "enp5s0" },
-//	{ netspeed_rx, "  %sB/s |",      "enp5s0" },
-	{ disk_perc,   "  disk: %2s% |",  "/" },
-	{ run_command, "  %s updates |", "cat $XDG_CACHE_HOME/updates.txt | wc -l" },
-	{ datetime,    "  %s",           "%d/%m/%Y |  %I:%M %p" },
+	{ run_command, "  %s |",     "pamixer --get-volume-human" },
+	{ cpu_perc,    "  %2s% |",   NULL },
+	{ ram_perc,    "  %2s% |",   NULL },
+//	{ netspeed_tx, "  %sB/s",    "enp5s0" },
+//	{ netspeed_rx, "  %sB/s |",  "enp5s0" },
+	{ disk_perc,   "  %2s% |",   "/" },
+	{ run_command, "  %s |",     "cat $XDG_CACHE_HOME/updates.txt | wc -l" },
+	{ datetime,    "  %s",       "%d/%m/%Y |  %I:%M %p" },
 };
