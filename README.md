@@ -6,6 +6,8 @@
 
 ![Preview](preview.png)
 
+Note: for a cleaner look, checkout the `minimal` branch.
+
 ---
 
 ## Dependencies:
@@ -15,7 +17,7 @@
 
 ---
 
-## Updates Counter: 
+## Updates Counter:
 
 slstatus does not directly run `checkupdates` as that would be ineffective. Instead, it runs `cat` on `$XDG_CACHE_HOME/updates.txt` and pipes it to `wc -l`.
 
