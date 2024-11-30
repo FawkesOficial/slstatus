@@ -70,6 +70,6 @@ static const struct arg args[] = {
 //	{ netspeed_tx, "  %sB/s",        "enp5s0" },
 //	{ netspeed_rx, "  %sB/s |",      "enp5s0" },
 	{ disk_perc,   "  disk: %2s% |",  "/" },
-	{ run_command, "  %s updates |", "cat $XDG_CACHE_HOME/updates.txt | wc -l" },
+	{ run_command, "  %s updates |", "cat $XDG_CACHE_HOME/updates.txt | wc -l" },
 	{ datetime,    "  %s",           "%d/%m/%Y |  %I:%M %p" },
 };
